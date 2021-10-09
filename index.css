@@ -1,0 +1,358 @@
+*{
+    font-family: Geometr706 BlkCn BT;
+}
+body{
+    box-sizing: border-box;
+    margin: 0px auto;
+    max-width: 100%;
+    width: 1496px;
+}
+
+/* navbar  */
+
+.navbar-container{
+    background-color: rgb(202, 202, 202);
+    margin: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.navbar{
+    width: 65%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 0px 0px;
+    margin-right: 0px;
+    padding: 0;
+}
+.navbar-item{
+    padding: 10px 20px;
+    margin: 0px 5px;
+}
+.subnavbar{
+    width:25%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 400px;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+.navbar-item1{
+    padding: 10px 20px;
+    margin: 0px 5px;
+}
+
+.jd{
+    height: 50px;
+    width: 50px;
+}
+.search-box{
+    width: 600px;
+    max-width: 800px;
+    position: relative;
+    display: flex;
+}
+.search-input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius:5px ;
+    font-size: 20px;
+    background: white;
+    margin-right: 5px;
+}
+.search-button{
+    text-align: center;
+    height: 51px;
+    width: 80px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: orangered;
+    font-size: 20px;
+}
+select{
+    border: none;
+    background: none;
+}
+.nav_right{
+    position:initial;
+    right: 20px;
+}
+ul{
+    list-style-type: none;
+}
+.link1{
+    font-size: 17px;
+    color: black;
+    text-decoration: none
+}
+
+
+.poster-img{
+    height: 180px;
+    width: 100%;
+    margin-top: 7px;
+    margin-bottom: 3px;
+}
+
+.sr-re{
+    background: rgb(179, 179, 179);
+    padding: 5px 0;
+    margin-bottom: 3px;
+}
+
+.navbar2{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0;
+}
+.navbar-item2{
+    padding: 10px 20px;
+    margin: 0px 5px;
+}
+#nav2-it1{
+    background: rgb(165, 165, 165);
+}
+.btn-arrow-right{
+    position: relative;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-left: 36px;
+    background-color: rgb(165, 165, 165);
+}
+.btn-arrow-right:after{
+    content:"";
+    position: absolute;
+    right: -34.5px;
+    top: -5px;
+    width: 28px; 
+    height: 28px;
+    background: rgb(165, 165, 165);
+    border: inherit; /* use parent border */
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-radius: 0px 4px 0px 0px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+}
+
+.content{
+    width: 100%;
+    display:flex;
+}
+.left-nav{
+    width: 22%;
+}
+.nav-left-cont{
+    margin-top: 3px;
+    padding: 0;
+    background-color: white;
+}
+.left-nav-item{
+    margin:3px 0 ;
+    background-color:  rgb(165, 165, 165);
+    padding:  10px 20px;
+}
+
+.right-col{
+    width: 100%;
+    margin: 3px ;
+}
+.box{
+    width: 100%;
+    background: rgb(209, 209, 209);
+    display: flex;
+    flex-wrap: nowrap;
+}
+.box-child{
+    width: 35%;
+    margin-right: 20px;
+}
+.box-child1{
+    width: 35%;
+    margin-right: 20px;
+}
+
+.content-img{
+    height: 200px;
+    width: 360px;
+    padding: 10px;
+    margin: 1px;
+    border-radius: 15px;
+}
+.tb{
+    margin: 1px;
+}
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.best-deal-btn {
+    height: 65px;
+    width: 250px;
+    background-color: #009605;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    margin: 30% 2px;
+    cursor: pointer;
+}
+.fr{
+    padding: 10px;
+    margin: 3px 0px 8px 0px;
+    background-color: rgb(209, 209, 209);
+}
+.foot{
+    text-align: center;
+    padding: 20px ;
+    background-color: rgb(165, 165, 165);
+}
+footer a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+/* for small laptop */
+@media screen and (max-width:1024px) and (min-width:767px){
+    .left-nav{
+        width: 20%;
+    }
+    #link1{
+        display: none;
+    }
+    .box-child{
+        width: 40%;
+        margin-right: 30px;
+    }
+    .content-img{
+        width: 100%;
+    }
+    .box-child1{
+        width: 35%;
+        margin-right: 10px;
+    }
+    .bd-btn{
+        width: 18%;
+        margin-right: 10px;
+    }
+    .best-deal-btn{
+        width: 100%;
+    }
+    .btn-arrow-right{
+        padding: 0px 10px;
+        right: 10px;
+    }
+    .navbar-item2{
+        padding: 10px;
+    }
+   
+}
+
+/* for tab  */
+@media screen and (max-width:768px) and (min-width:425px){
+    .search-box{
+        width: 300px;
+        position: relative;
+        display: flex;
+    }
+    #link1, #tab-hide{
+        display: none;
+    }
+    .left-nav{
+        width: 20%;
+    }
+    .box-child{
+        width: 40%;
+    }
+    .content-img{
+        width: 100%;
+    }
+    .box-child1{
+        width: 37%;
+        margin-right: 0px;
+    }
+    .h1{
+        margin: 5px 0px 0px 0px;
+    }
+    .bd-btn{
+        width: 18%;
+        margin-right: 0px;
+    }
+    .best-deal-btn{
+        padding: 5px 0px;
+        width: 100%;
+    }
+
+}
+
+/* For phone */
+@media screen and (max-width:426px){
+    body{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .subnavbar,.left-nav, .navbar2, .poster-img{
+        display: none;
+    }
+    .navbar{
+        width: 100%;
+        position: sticky;
+    }
+    .search-box{
+        width: 250px;
+    }
+    .navbar-item{
+        padding: 10px 0px;
+    }
+    #phone-hide{
+        display: none;
+    }
+    .box{
+        display: block;
+        margin: 0px;
+        text-align: center;
+    }
+    .box-child{
+        width: 100%; 
+    }
+    .content-img{
+        width: 100%;
+        margin: 1px;
+        padding: 0px;
+    }
+    .box-child1{
+        width: 100%;
+    }
+    .bd-btn{
+        width: 100%;
+    }
+    .best-deal-btn{
+        width: 70%;
+        margin: 0 0 10px 0;
+    }
+}
